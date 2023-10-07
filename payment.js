@@ -29,7 +29,7 @@ const verifyPayment = (ref, mycallback) => {
 }
 const paystack = (request) => {
     const MySecretKey = 'Bearer sk_test_xxxx';
-    //sk_test_xxxx to be replaced by your own secret key
+    
     const initializePayment = (form, mycallback) => {
         const option = {
             url : 'https://api.paystack.co/transaction/initialize',
