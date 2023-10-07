@@ -70,7 +70,7 @@ const showQuestion = (question) => {
     questions.indexOf(question) + 1
   }</span>
             <span class="total">/${questions.length}</span>`;
-  //add event listener to each answer
+
   const answersDiv = document.querySelectorAll(".answer");
   answersDiv.forEach((answer) => {
     answer.addEventListener("click", () => {
